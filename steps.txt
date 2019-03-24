@@ -3,6 +3,10 @@ ng new <project-name>
 cd <project-name>
   ng generate module <module-name>
   ng generate component <module-name>/<component-name>
+(import a feature module app.module.ts)
+(export component in customer-dashboard.module.ts)
+(add component to app.component.html)
+npm start
 
 reference:
 https://angular.io/guide/feature-modules
