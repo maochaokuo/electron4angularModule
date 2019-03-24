@@ -1,0 +1,8 @@
+npm install -g @angular/cli
+ng new <project-name>
+cd <project-name>
+  ng generate module <module-name>
+  ng generate component <module-name>/<component-name>
+
+reference:
+https://angular.io/guide/feature-modules
