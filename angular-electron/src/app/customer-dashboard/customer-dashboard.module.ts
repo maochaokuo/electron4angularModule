@@ -4,6 +4,9 @@ import { CustomerDashboardComponent } from './customer-dashboard/customer-dashbo
 
 @NgModule({
   declarations: [CustomerDashboardComponent],
+  exports: [
+    CustomerDashboardComponent
+  ],
   imports: [
     CommonModule
   ]
